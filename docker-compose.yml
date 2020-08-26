@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  python-xxelab:
+    image: "c4pr1c3/python-xxelab"
+    build: .
+    ports:
+      - "5000:5000"
